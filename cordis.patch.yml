@@ -1,0 +1,11 @@
+# dsh-chat-beautify —— bundle patch。
+#
+# 行 id 与行 name 都等于包名；client.js 里 ModuleLoader 的 id 也必须与之一致，
+# 三处改名时必须一起改。
+#
+# 本插件不需要 Host 配置：预设由对话区右下角的切换器选择，存在浏览器
+# localStorage 里，不写入 profile 的任何配置文件。
+- insert:
+    - id: dsh-chat-beautify
+      name: 'dsh-chat-beautify'
+      config: {}
