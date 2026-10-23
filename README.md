@@ -53,7 +53,7 @@ $env:DSH_PROFILE
 dsh plugin --profile <profile> add github:vi0let-dev/dsh-chat-beautify
 ```
 
-等仓库打过 tag 之后，可以锁定版本安装：
+锁定到已发布的 tag 安装（当前为 `v0.1.0`）：
 
 ```powershell
 dsh plugin --profile <profile> add github:vi0let-dev/dsh-chat-beautify#v0.1.0
