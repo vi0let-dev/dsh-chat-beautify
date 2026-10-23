@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./docs/banner.png" alt="dsh-chat-beautify：DSH 会话界面美化" width="100%">
+</p>
+
 # dsh-chat-beautify
 
 给 DeepSeek Harness（DSH）Web 会话界面加一层可切换的视觉预设：**柔光 / 纸感 / 紧凑**。
